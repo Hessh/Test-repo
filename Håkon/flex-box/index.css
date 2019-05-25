@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+#container{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(62, 123, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.box{
+    margin: 5rem;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 189, 67);
+}
