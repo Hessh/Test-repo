@@ -1,0 +1,52 @@
+html, body{
+    font-size: 1rem;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: rgb(255, 154, 154);
+}
+
+.column{
+    height: 100vh auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+[class*="row"]{
+    box-sizing: border-box;
+    border: 0.1rem solid black;
+    padding: 1rem;
+}
+
+.row-1 {height: 20%;}
+.row-2 {height: 40%;}
+.row-3 {height: 60%;}
+.row-4 {height: 80%;}
+.row-5 {height: 100%;}
+
+.row-push-1 {display: block; height: 20%;}
+.row-push-2 {display: block; height: 40%;}
+.row-push-3 {display: block; height: 60%;}
+.row-push-4 {display: block; height: 80%;}
+.row-push-5 {display: block; height: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
