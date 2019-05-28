@@ -28,64 +28,29 @@ html, body{
     box-sizing: border-box; /* Padding og border er inline i alle elementer innenfor gitt tag */
 }
 
-/* Mobil (burde rendres først for optimalisert innlastning) */
-@media only screen and (max-width: 500px){
+
+
     
-    .col-sm-1{width: 8.33%;}
-    .col-sm-2{width: 16.66%;}
-    .col-sm-3{width: 24.99%;}
-    .col-sm-4{width: 33.32%;}
-    .col-sm-5{width: 41.65%;}
-    .col-sm-6{width: 49.98%;}
-    .col-sm-7{width: 58.31%;}
-    .col-sm-8{width: 66.64%;}
-    .col-sm-9{width: 74.97%;}
-    .col-sm-10{width: 83.3%;}
-    .col-sm-11{width: 91.63%;}
-    .col-sm-12{width: 100%;}
+    .col-lg-1{width: 10%;}
+    .col-lg-2{width: 20%;}
+    .col-lg-3{width: 30%;}
+    .col-lg-4{width: 40%;}
+    .col-lg-5{width: 50%;}
+    .col-lg-6{width: 60%;}
+    .col-lg-7{width: 70%;}
+    .col-lg-8{width: 80%;}
+    .col-lg-9{width: 90%;}
+    .col-lg-10{width: 100%;}
 
     /* Tomme kolonner (whitespace) */
-    .col-push-1{display: block; width: 8.33%;}
-    .col-push-2{display: block; width: 16.66%;}
-    .col-push-3{display: block; width: 24.99%;}
-    .col-push-4{display: block; width: 33.32%;}
-    .col-push-5{display: block; width: 41.65%;}
-    .col-push-6{display: block; width: 49.98%;}
-    .col-push-7{display: block; width: 58.31%;}
-    .col-push-8{display: block; width: 66.64%;}
-    .col-push-9{display: block; width: 74.97%;}
-    .col-push-10{display: block; width: 83.3%;}
-    .col-push-11{display: block; width: 91.63%;}
-    .col-push-12{display: block; width: 100%;}
-}
-
-/* Større enn mobil (Desktop) */
-@media only screen and (min-width: 500px){
+    .col-push-1{display: block; width: 10%;}
+    .col-push-2{display: block; width: 20%;}
+    .col-push-3{display: block; width: 30%;}
+    .col-push-4{display: block; width: 40%;}
+    .col-push-5{display: block; width: 50%;}
+    .col-push-6{display: block; width: 60%;}
+    .col-push-7{display: block; width: 70%;}
+    .col-push-8{display: block; width: 80%;}
+    .col-push-9{display: block; width: 90%;}
+    .col-push-10{display: block; width: 100%;}
     
-    .col-lg-1{width: 8.33%;}
-    .col-lg-2{width: 16.66%;}
-    .col-lg-3{width: 24.99%;}
-    .col-lg-4{width: 33.32%;}
-    .col-lg-5{width: 41.65%;}
-    .col-lg-6{width: 49.98%;}
-    .col-lg-7{width: 58.31%;}
-    .col-lg-8{width: 66.64%;}
-    .col-lg-9{width: 74.97%;}
-    .col-lg-10{width: 83.3%;}
-    .col-lg-11{width: 91.63%;}
-    .col-lg-12{width: 100%;}
-
-    /* Tomme kolonner (whitespace) */
-    .col-push-1{display: block; width: 8.33%;}
-    .col-push-2{display: block; width: 16.66%;}
-    .col-push-3{display: block; width: 24.99%;}
-    .col-push-4{display: block; width: 33.32%;}
-    .col-push-5{display: block; width: 41.65%;}
-    .col-push-6{display: block; width: 49.98%;}
-    .col-push-7{display: block; width: 58.31%;}
-    .col-push-8{display: block; width: 66.64%;}
-    .col-push-9{display: block; width: 74.97%;}
-    .col-push-10{display: block; width: 83.3%;}
-    .col-push-11{display: block; width: 91.63%;}
-    .col-push-12{display: block; width: 100%;}
-}
