@@ -3,20 +3,28 @@ html, body{
     margin: 0;
 }
 
-.head{
+.head-container{
     background-color: rgb(240, 240, 240);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 3rem;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.head-column{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
+.head-h3{
+    border-bottom: 0.1rem solid black;
+    box-sizing: border-box;
+}
+
 .container{
-    margin-top: 3rem;
+    margin-top: 4rem;
     width: 100vw;
     height: 150vh;
     display: grid;
@@ -34,7 +42,7 @@ html, body{
 
 .item{
     border: 0.1rem solid black;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 1rem;
     margin: 1rem;
 }
