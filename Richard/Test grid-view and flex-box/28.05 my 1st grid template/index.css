@@ -1,0 +1,46 @@
+html, body{
+    font-size: 1rem; 
+    /* 1rem av browsers innstillinger 
+    (Alle fonts burde bruke rem, 
+    tilbake til denne) */
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
+    grid-template-rows: 90vh;
+    padding-top: 1vh;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    width: 96vw;
+  }
+
+  
+
+.column {
+    display: grid;
+    grid-template-columns: 15vw;
+    overflow-wrap: break-word;
+    grid-template-rows: 5rem 2rem auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+  
+  .grid-container > .column > div{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+[class*="item"]
+{
+        border: 1px solid black;
+        border-radius: 0.94em;
+        background-color: blue;
+}
+
+  [class*="empty"]
+  {
+      opacity: 0;
+  }
