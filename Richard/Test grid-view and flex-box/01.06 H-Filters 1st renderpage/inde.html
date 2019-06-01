@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Grid-main</title>
+</head>
+<body>
+    <header>
+        <div class="head-container">
+            <div class="head-column">
+                <h3 class="head-h3">Back</h3>
+            </div>
+            <div class="head-column">
+                <h3 class="head-h3">To-Do</h3>
+            </div>
+            <div class="head-column">
+                <h3 class="head-h3">Ongoing</h3>
+            </div>
+            <div class="head-column">
+                <h3 class="head-h3">Done</h3>
+            </div>
+            <div class="head-column">
+                <h3 class="head-h3">Profile-pic</h3>
+            </div> 
+        </div>  
+    </header>
+    <main>
+        <div class="container">
+            <div class="column column-1">
+                <!--<div class="item manual">
+                    <h3 class="filter-name">How to</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eveniet ipsum eum minima quia provident ipsam soluta dolore totam. Voluptatibus voluptate eius nihil repudiandae adipisci temporibus in excepturi quisquam saepe!</p>
+                </div>
+                <div class="item manual">
+                    <h3 class="filter-name">Commit stages</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eveniet ipsum eum minima quia provident ipsam soluta dolore totam. Voluptatibus voluptate eius nihil repudiandae adipisci temporibus in excepturi quisquam saepe!</p>
+                </div>-->
+            </div>
+            <div class="column column-2">
+                
+            </div>
+            <div class="column column-3">
+               
+            </div>
+            
+            <div class="column column-4">
+               
+            </div>
+
+            <div class="column column-5">
+                <div class="filter item content manual">
+                    <h3 class="filter-name">Members</h3>
+
+                    <input id="select-all" class="master-selectro" type="checkbox" onclick="slect(this.id)">Select all<br>
+
+                    <input id="colaborator-1" class="show-task" type="checkbox" onclick="myFunction(this.id)" value="name" checked>Member 1<br>
+                    <input id="colaborator-2" class="show-task" type="checkbox" onclick="myFunction(this.id)" value="truls" checked>Truls<br>
+                </div>
+                <div id="category" class="filter item content manual">
+                    <h3 class="filter-name">Category</h3>
+                    <input type="checkbox" name="" value="">Design<br>
+                    <input type="checkbox" name="" value="">Front-end<br>
+                    <input type="checkbox" name="" value="">Back-end<br>
+                </div>
+                <div class="docs item content">
+                    <h3 class="filter-name">Language doc</h3>
+                    <p><a href="">www.javadocs.com</a></p>
+                    <p><a href="">www.htmldocs.com</a></p>
+                    <p><a href="">www.cssdocs.com</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -13,11 +13,12 @@
 </body>
 
 <div class="popup-container"></div>
+    
     <div class="popup-window">
 
-        <div class="form-container">
-  
-            <h2>Ny oppgave</h2>
+            <div class="popup-exit-button">X</div>
+            <div class="popup-column">
+            <h2 id="popup-header">Ny oppgave</h2>
             
             <form>
               
@@ -28,22 +29,35 @@
                 <label>Name</label>
               </div>
                 
-              <div id="group2" class="input-box">      
-                <input type="text" required>
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label>Email</label>
+             <div id="group2" class="input-dropdown">
+              <select id="owner" name="owner">
+                <option >Owner</option>
+                <option >Richard</option>
+                <option >Petter</option>
+                <option >Anders</option>
+                </select>
+             </div>
+
+             <div id="group3" class="input-dropdown">
+                <select id="category" name="category">
+                    <option >Category</option>
+                    <option >HTML</option>
+                    <option >.js</option>
+                    <option >JAVA</option>
+                    <option >CSS</option>
+                    </select>
+             </div>
+
+              <div id="group4" class="input-multiline">
+                <textarea name="message" placeholder="Beskrivelse"></textarea>
               </div>
               
-              
+            </form>
+            </div>
 
            
-
-              
-
-            </form>
-
-    </div>
+</div>
+    
    
     
 
