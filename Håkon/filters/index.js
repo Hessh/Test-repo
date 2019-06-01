@@ -1,26 +1,26 @@
-function slect(selector){
+function filterAllOnOff(selector){
     
-    const checkboxes = document.getElementsByClassName("show-task");
+    const checkboxes = document.getElementsByClassName("select-name");
+    
     
     console.log(checkboxes)
     if(selector.checked == true){
         
         for(let i = 0; i < checkboxes.length; i++){
             checkboxes[i].checked = true;
-            
         }
-        console.log("Truls");
+        console.log("På");
     }else{
+
         for(let i = 0; i < checkboxes.length; i++){
             checkboxes[i].checked = false;
         }
-        console.log("heisann");
+        console.log("Av");
     }  
 }
 
-function myFunction(colaborator){
+function nameSelector(colaborator){
     let checkBox = document.getElementById(colaborator);
-
     let tasks = document.getElementsByClassName("task");
 
     for (let i = 0; i < tasks.length; i++){
@@ -28,8 +28,6 @@ function myFunction(colaborator){
     let tasks2 = tasks[i].children;
     let tasks3 = tasks2[0].children;
     let tasks4 = tasks3[1].innerHTML;
-    console.log(tasks4);
-    console.log(checkBox.value);
 
         if(tasks4.toLowerCase() == (checkBox.value).toLowerCase()){
 
