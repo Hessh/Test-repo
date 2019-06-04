@@ -116,4 +116,10 @@ html {
       color: #FFFFFF;
       text-align: center;
      }
+
+
+     .new-calendar {
+      position: absolute;
+      top: 50px; /* ned fra toppen */
+    }
       

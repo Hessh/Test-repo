@@ -62,12 +62,18 @@ function displayCalendar(){
      // highlight current day using the CSS defined in header.
      if (counter == day){
          htmlContent +="<td class='dayNow'  onMouseOver='this.style.background=\"#FF0000\"; this.style.color=\"#FFFFFF\"' "+
-         "onMouseOut='this.style.background=\"#FFFFFF\"; this.style.color=\"#00FF00\"'>"+counter+"</td>";
+         "onMouseOut='this.style.background=\"#lightgreen\"; this.style.color=\"#00FF00\"'>"+counter+"</td>";
      }else{
-         htmlContent +="<td class='monthNow' onMouseOver='this.style.background=\"#FF0000\"'"+
-         " onMouseOut='this.style.background=\"#FFFFFF\"'>"+counter+"</td>";    
+         htmlContent +="<td class='monthNow'  onMouseOver='this.style.background=\"#FF0000\"'"+
+         " onMouseOut='this.style.background=\"lightgreen\"'>"+counter+"</td>";    
+         /* onclick='' */
   
      }
+
+    document.getElementById('calendar').addEventListener('click', addDate('calendar'));
+    function addDate(dateID){
+      
+    }
      
      weekdays2++;
      counter++;
